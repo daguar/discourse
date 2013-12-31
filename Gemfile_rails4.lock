@@ -253,6 +253,7 @@ GEM
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.7.0)
+    newrelic_rpm (3.7.1.180)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     oauth (0.4.7)
@@ -458,6 +459,8 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
+    unicorn-worker-killer (0.4.2)
+      unicorn (~> 4)
 
 PLATFORMS
   ruby
@@ -500,6 +503,7 @@ DEPENDENCIES
   mock_redis
   multi_json
   mustache
+  newrelic_rpm
   nokogiri
   oj
   omniauth
@@ -552,4 +556,5 @@ DEPENDENCIES
   uglifier
   unf
   unicorn
+  unicorn-worker-killer
   vestal_versions!

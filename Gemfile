@@ -193,7 +193,7 @@ gem 'rbtrace', require: false
 # Heroku (but useful anywhere) stuff
 gem 'unicorn-worker-killer'
 gem 'newrelic_rpm'
-gem 'honeybadger'
+#gem 'honeybadger'
 
 # perftools only works on 1.9 atm
 group :profile do
